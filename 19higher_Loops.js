@@ -45,6 +45,7 @@ const languages = {
   ja: "java",
   cpp: "c++",
 };
+
 for (const key in languages) {
   console.log(`${key} is the shortcut of ${languages[key]}`);
 }
