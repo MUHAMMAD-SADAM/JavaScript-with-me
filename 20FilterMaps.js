@@ -46,3 +46,33 @@ const userBooks = books.filter((bk) => {
   }
 });
 console.log(userBooks);
+
+//Map Method
+const myNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const store2 = myNumber.map((num3) => {
+  return num3 + 10;
+});
+
+console.log(store2);
+
+// same but with foreach method
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const store3 = myNumbers.forEach((item) => {
+  console.log(item + 10);
+});
+console.log(store3);
+
+//chaining Method with map and filter
+
+const myNumber4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const store4 = myNumber4
+  .map((num4) => {
+    return num4 * 10;
+  })
+  .map((num4) => {
+    return num4 + 1;
+  })
+  .filter((num4) => {
+    return num4 > 20;
+  });
+console.log(store4);
