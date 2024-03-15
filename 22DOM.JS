@@ -1,0 +1,15 @@
+// document.getElementById("title").id;
+// document.getElementById("title").className;
+// document.getElementById("title").textContent;
+const stoore = document.getElementById("title").innerHTML;
+const store2 = document.getElementById("title").innerText;
+console.log(stoore, store2);
+// document.getElementById("title").getAttribute("class");
+// document.getElementById("title").getAttribute("id");
+// document.getElementById("title").setAttribute("class", "test");
+// document.getElementById("title").setAttribute("class", "test teat2");
+// document.getElementById("title").setAttribute("id", "test");
+document.querySelector("h2");
+document.querySelectorAll("h2");
+document.querySelectorAll("#title");
+document.querySelectorAll(".heading");
