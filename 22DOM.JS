@@ -23,7 +23,7 @@ document.querySelectorAll(".heading");
 
 // how to change the backgrpund color of li
 
-// const bgcolor = document.querySelector("ul");
+const bgcolor = document.querySelector("ul");
 bgcolor.querySelector("li");
 const bgcolor2 = bgcolor.querySelector("li");
 bgcolor2.style.background = "green";
@@ -41,3 +41,16 @@ list.forEach((item) => {
 const hello = document.getElementsByClassName("listItem");
 hello;
 Array.from(hello);
+
+document.querySelectorAll(".mw-headline");
+const myh2 = document.querySelectorAll(".mw-headline");
+myh2;
+myh2[1].innerText;
+myh2[1].style.background = "red";
+
+myh2.forEach((item) => {
+  item.style.color = "red";
+  item.style.backgroundColor = "black";
+  item.style.padding = "20px";
+  item.innerText = "sadam";
+});
