@@ -1,4 +1,3 @@
-//
 console.log(typeof undefined); // treat as undefined
 console.log(typeof null); // treat as object
 
